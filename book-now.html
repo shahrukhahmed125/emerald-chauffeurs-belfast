@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Chauffeur | Emerald Chauffeurs Belfast</title>
+    <meta name="description" content="Reserve your executive Mercedes-Benz chauffeur transfer or private Ireland tour with Emerald Chauffeurs Belfast. Instant journey details, luxury vehicle selection, and guaranteed fixed pricing." />
+    <meta property="og:title" content="Book Your Chauffeur | Emerald Chauffeurs Belfast" />
+    <meta property="og:description" content="Reserve executive Mercedes-Benz chauffeur transfers across Belfast and Dublin." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/booking.css" />
+    <link rel="stylesheet" href="/assets/css/pages.css" />
+  </head>
+  <body>
+    <!-- Luxury Gold Cursor -->
+    <div class="custom-cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="custom-cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Ambient Glows -->
+    <div class="ambient-glow-1" aria-hidden="true"></div>
+    <div class="ambient-glow-2" aria-hidden="true"></div>
+
+    <!-- ======================================================================
+         GLOBAL HEADER & NAVIGATION
+         ====================================================================== -->
+    <header class="site-header-wrapper" id="siteHeader">
+      <!-- Top Announcement Bar -->
+      <div class="top-bar">
+        <div class="top-bar-message">
+          <span>Premium Chauffeur Services Across Belfast & Ireland</span>
+          <span class="bullet">·</span>
+          <span>Licensed DVA Chauffeur Service</span>
+        </div>
+        <div class="top-bar-right">
+          <a href="tel:07894270520" class="top-bar-phone" aria-label="Direct Phone Line">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>07894270520</span>
+          </a>
+          <div class="top-bar-socials">
+            <a href="https://www.instagram.com/emeraldchauffeursbelfast" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/share/1ArNWmjnJj/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Navigation -->
+      <div class="main-header">
+        <div class="nav-container">
+          <a href="index.html" class="brand-link" aria-label="Emerald Chauffeurs Home">
+            <svg class="brand-crest" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 8L88 30V70L50 92L12 70V30L50 8Z" stroke="currentColor" stroke-width="4"/>
+              <circle cx="50" cy="50" r="22" stroke="currentColor" stroke-width="2"/>
+              <text x="50" y="58" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="700" text-anchor="middle" fill="currentColor">E</text>
+            </svg>
+            <span class="brand-name">Emerald <span class="brand-accent">Chauffeurs</span></span>
+          </a>
+
+          <nav class="nav-menu" aria-label="Main Navigation">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About Us</a></li>
+            
+            <li class="nav-item has-dropdown">
+              <button class="nav-link-btn" aria-expanded="false" aria-haspopup="true">
+                <span>Services</span>
+                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="services.html">All Services Overview</a></li>
+                <li class="dropdown-item"><a href="airport-transfers.html">Airport Transfers</a></li>
+                <li class="dropdown-item"><a href="private-jet-transfers.html">Private Jet Transfers</a></li>
+                <li class="dropdown-item"><a href="corporate-chauffeur.html">Corporate Chauffeur</a></li>
+                <li class="dropdown-item"><a href="cruise-transfers.html">Cruise Ship Transfers</a></li>
+                <li class="dropdown-item"><a href="wedding-chauffeur.html">Wedding Chauffeur</a></li>
+                <li class="dropdown-item"><a href="golf-tours.html">Golf Tours</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <button class="nav-link-btn" aria-expanded="false" aria-haspopup="true">
+                <span>Private Tours</span>
+                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="private-tours.html">All Tours Overview</a></li>
+                <li class="dropdown-item"><a href="giants-causeway-tours.html">Giant's Causeway Tours</a></li>
+                <li class="dropdown-item"><a href="belfast-city-tours.html">Belfast City Tours</a></li>
+                <li class="dropdown-item"><a href="political-tours.html">Political Tours</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a href="fleet.html">Our Fleet</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </nav>
+
+          <div class="header-actions">
+            <a href="book-now.html" class="btn btn-primary btn-sm">Book Now</a>
+            <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false">
+              <span class="hamburger-bar"></span>
+              <span class="hamburger-bar"></span>
+              <span class="hamburger-bar"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation" aria-hidden="true">
+      <div class="mobile-drawer-header">
+        <a href="index.html" class="brand-link">
+          <svg class="brand-crest" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 8L88 30V70L50 92L12 70V30L50 8Z" stroke="currentColor" stroke-width="4"/>
+            <text x="50" y="58" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="700" text-anchor="middle" fill="currentColor">E</text>
+          </svg>
+          <span class="brand-name">Emerald <span class="brand-accent">Chauffeurs</span></span>
+        </a>
+        <button class="mobile-drawer-close-btn" id="mobileDrawerCloseBtn" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="mobile-drawer-body">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About Us</a></li>
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" aria-expanded="false">
+              <span>Services</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="services.html">Services Overview</a></li>
+              <li class="mobile-submenu-item"><a href="airport-transfers.html">Airport Transfers</a></li>
+              <li class="mobile-submenu-item"><a href="private-jet-transfers.html">Private Jet Transfers</a></li>
+              <li class="mobile-submenu-item"><a href="corporate-chauffeur.html">Corporate Chauffeur</a></li>
+              <li class="mobile-submenu-item"><a href="cruise-transfers.html">Cruise Ship Transfers</a></li>
+              <li class="mobile-submenu-item"><a href="wedding-chauffeur.html">Wedding Chauffeur</a></li>
+              <li class="mobile-submenu-item"><a href="golf-tours.html">Golf Tours</a></li>
+            </ul>
+          </li>
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" aria-expanded="false">
+              <span>Private Tours</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="private-tours.html">Tours Overview</a></li>
+              <li class="mobile-submenu-item"><a href="giants-causeway-tours.html">Giant's Causeway Tours</a></li>
+              <li class="mobile-submenu-item"><a href="belfast-city-tours.html">Belfast City Tours</a></li>
+              <li class="mobile-submenu-item"><a href="political-tours.html">Political Tours</a></li>
+            </ul>
+          </li>
+          <li class="mobile-nav-item"><a href="fleet.html" class="mobile-nav-link">Our Fleet</a></li>
+          <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+
+        <div class="mobile-drawer-actions">
+          <a href="book-now.html" class="btn btn-primary" style="width: 100%; margin-bottom: 12px;">Book Your Chauffeur</a>
+          <a href="https://wa.me/447894270520?text=Hello%20Emerald%20Chauffeurs%20Belfast%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20chauffeur." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; margin-bottom: 24px; color: var(--color-gold-champagne); border-color: var(--color-gold-border);">
+            Chat on WhatsApp
+          </a>
+          <div class="mobile-drawer-contact">
+            <p class="drawer-contact-label">Direct Concierge Telephone</p>
+            <a href="tel:07894270520" class="drawer-contact-phone">07894270520</a>
+            <p class="drawer-contact-sub">Belfast · Dublin · All Northern Ireland</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ======================================================================
+         PREMIUM MULTI-STEP BOOKING PLATFORM
+         ====================================================================== -->
+    <main class="booking-page-wrap" id="bookingStepperWrap">
+      <div class="booking-hero-header">
+        <span class="section-kicker">
+          <span class="kicker-line"></span>
+          <span>Sovereign Executive Reservations</span>
+        </span>
+        <h1 class="section-title">Reserve Your <em>Chauffeur</em></h1>
+        <p class="section-subtitle">
+          Experience seamless luxury transportation across Belfast, Dublin, and throughout Northern Ireland. Complete your journey requirements below for priority concierge allocation.
+        </p>
+      </div>
+
+      <div class="booking-stepper-container">
+        <!-- Progress Stepper Track -->
+        <div class="stepper-progress-bar">
+          <div class="stepper-track-bg"></div>
+          <div class="stepper-track-fill" id="stepperTrackFill"></div>
+
+          <!-- Step 1 Node -->
+          <div class="step-node active" data-step-target="1">
+            <div class="step-node-bubble">1</div>
+            <span class="step-node-label">Journey Details</span>
+          </div>
+
+          <!-- Step 2 Node -->
+          <div class="step-node" data-step-target="2">
+            <div class="step-node-bubble">2</div>
+            <span class="step-node-label">Select Vehicle</span>
+          </div>
+
+          <!-- Step 3 Node -->
+          <div class="step-node" data-step-target="3">
+            <div class="step-node-bubble">3</div>
+            <span class="step-node-label">Passenger Info</span>
+          </div>
+
+          <!-- Step 4 Node -->
+          <div class="step-node" data-step-target="4">
+            <div class="step-node-bubble">4</div>
+            <span class="step-node-label">Review & Submit</span>
+          </div>
+        </div>
+
+        <!-- Form Card Container -->
+        <div class="booking-card">
+          <!-- ================================================================
+               STEP 1: JOURNEY DETAILS
+               ================================================================ -->
+          <div class="booking-step-content active" data-step="1">
+            <div class="step-title-wrap">
+              <span class="step-kicker">Step 01 of 04</span>
+              <h2 class="step-heading">Where Would You Like To Go?</h2>
+            </div>
+
+            <!-- Journey Type Buttons -->
+            <div class="journey-type-selector">
+              <button type="button" class="journey-type-btn active" data-type="one-way">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                <span>One Way</span>
+              </button>
+              <button type="button" class="journey-type-btn" data-type="return">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+                <span>Return Journey</span>
+              </button>
+              <button type="button" class="journey-type-btn" data-type="hourly">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Hourly Hire</span>
+              </button>
+              <button type="button" class="journey-type-btn" data-type="full-day">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>Full Day Hire</span>
+              </button>
+            </div>
+
+            <div class="booking-form-grid">
+              <!-- Location Inputs with Swap Button -->
+              <div class="locations-container">
+                <div class="form-group">
+                  <label for="pickupLocation" class="form-label">
+                    <span>Pickup Location *</span>
+                  </label>
+                  <div class="form-input-wrap">
+                    <svg class="form-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <input type="text" id="pickupLocation" class="booking-input" placeholder="e.g. Belfast City Airport (BHD), Hotel or Address" required />
+                  </div>
+                  <span class="form-error-msg" id="errPickup">Please enter a valid pickup address</span>
+                </div>
+
+                <button type="button" class="btn-swap-locations" id="swapLocationsBtn" title="Swap pickup and destination" aria-label="Swap Locations">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="17" y1="3" x2="17" y2="21"></line><path d="M13 7l4-4 4 4"></path><line x1="7" y1="21" x2="7" y2="3"></line><path d="M11 17l-4 4-4-4"></path></svg>
+                </button>
+
+                <div class="form-group">
+                  <label for="destinationLocation" class="form-label">
+                    <span>Destination *</span>
+                  </label>
+                  <div class="form-input-wrap">
+                    <svg class="form-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <input type="text" id="destinationLocation" class="booking-input" placeholder="e.g. The Merchant Hotel, Belfast or Dublin Airport" required />
+                  </div>
+                  <span class="form-error-msg" id="errDest">Please enter a valid destination address</span>
+                </div>
+              </div>
+
+              <!-- Pickup Date & Time -->
+              <div class="form-group">
+                <label for="pickupDate" class="form-label">Pickup Date *</label>
+                <div class="form-input-wrap">
+                  <svg class="form-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                  <input type="date" id="pickupDate" class="booking-input" required />
+                </div>
+                <span class="form-error-msg" id="errPickupDate">Please select a pickup date</span>
+              </div>
+
+              <div class="form-group">
+                <label for="pickupTime" class="form-label">Pickup Time *</label>
+                <div class="form-input-wrap">
+                  <svg class="form-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <input type="time" id="pickupTime" class="booking-input" value="10:00" required />
+                </div>
+                <span class="form-error-msg" id="errPickupTime">Please select a pickup time</span>
+              </div>
+
+              <!-- Hourly Duration (Conditional) -->
+              <div class="form-group form-group-full" id="hourlyDurationWrap" style="display: none;">
+                <label for="hourlyDurationSelect" class="form-label">Hire Duration (Hours)</label>
+                <select id="hourlyDurationSelect" class="booking-input no-icon">
+                  <option value="3">3 Hours (Minimum executive hire)</option>
+                  <option value="4" selected>4 Hours (Half Day)</option>
+                  <option value="6">6 Hours</option>
+                  <option value="8">8 Hours (Full Business Day)</option>
+                  <option value="10">10 Hours (Extended Roadshow)</option>
+                  <option value="12">12 Hours (Comprehensive Excursion)</option>
+                </select>
+              </div>
+
+              <!-- Return Date & Time (Conditional) -->
+              <div class="form-group-full" id="returnFieldsWrap" style="display: none; grid-template-columns: 1fr 1fr; gap: 24px;">
+                <div class="form-group">
+                  <label for="returnDate" class="form-label">Return Date *</label>
+                  <div class="form-input-wrap">
+                    <svg class="form-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <input type="date" id="returnDate" class="booking-input" />
+                  </div>
+                  <span class="form-error-msg" id="errReturnDate">Please select return date</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="returnTime" class="form-label">Return Time *</label>
+                  <div class="form-input-wrap">
+                    <svg class="form-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <input type="time" id="returnTime" class="booking-input" value="18:00" />
+                  </div>
+                  <span class="form-error-msg" id="errReturnTime">Please select return time</span>
+                </div>
+              </div>
+
+              <!-- Passengers & Suitcases Steppers -->
+              <div class="form-group">
+                <label class="form-label">Number of Passengers</label>
+                <div class="number-counter-wrap">
+                  <button type="button" class="counter-btn" id="paxMinusBtn" aria-label="Decrease Passengers">−</button>
+                  <span class="counter-display" id="paxCountDisplay">2</span>
+                  <button type="button" class="counter-btn" id="paxPlusBtn" aria-label="Increase Passengers">+</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Number of Suitcases</label>
+                <div class="number-counter-wrap">
+                  <button type="button" class="counter-btn" id="bagMinusBtn" aria-label="Decrease Luggage">−</button>
+                  <span class="counter-display" id="bagCountDisplay">2</span>
+                  <button type="button" class="counter-btn" id="bagPlusBtn" aria-label="Increase Luggage">+</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stepper Controls -->
+            <div class="stepper-nav-controls" style="justify-content: flex-end;">
+              <button type="button" class="btn btn-primary btn-lg" id="step1NextBtn">
+                <span>Continue to Select Vehicle</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               STEP 2: VEHICLE SELECTION
+               ================================================================ -->
+          <div class="booking-step-content" data-step="2">
+            <div class="step-title-wrap">
+              <span class="step-kicker">Step 02 of 04</span>
+              <h2 class="step-heading">Select Your Vehicle Category</h2>
+            </div>
+
+            <!-- Illustrative Fleet Disclaimer -->
+            <div class="fleet-disclaimer-banner">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span><strong>Illustrative Fleet Models:</strong> Vehicle categories and specifications are proposed representations. Specific vehicle models and exact capacities will be verified and confirmed upon concierge review.</span>
+            </div>
+
+            <!-- Dynamic Vehicle Grid -->
+            <div class="vehicle-selection-grid" id="vehicleSelectionGrid">
+              <!-- Rendered dynamically by assets/js/booking.js -->
+            </div>
+
+            <!-- Stepper Controls -->
+            <div class="stepper-nav-controls">
+              <button type="button" class="btn btn-secondary" id="step2BackBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                <span>Back</span>
+              </button>
+              <button type="button" class="btn btn-primary btn-lg" id="step2NextBtn">
+                <span>Continue to Passenger Details</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               STEP 3: PASSENGER DETAILS
+               ================================================================ -->
+          <div class="booking-step-content" data-step="3">
+            <div class="step-title-wrap">
+              <span class="step-kicker">Step 03 of 04</span>
+              <h2 class="step-heading">Lead Passenger Information</h2>
+            </div>
+
+            <div class="booking-form-grid">
+              <div class="form-group">
+                <label for="passengerFirstName" class="form-label">First Name *</label>
+                <input type="text" id="passengerFirstName" class="booking-input no-icon" placeholder="e.g. Alexander" required />
+                <span class="form-error-msg" id="errFirstName">Please provide your first name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="passengerLastName" class="form-label">Last Name *</label>
+                <input type="text" id="passengerLastName" class="booking-input no-icon" placeholder="e.g. Wright" required />
+                <span class="form-error-msg" id="errLastName">Please provide your last name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="passengerEmail" class="form-label">Email Address *</label>
+                <input type="email" id="passengerEmail" class="booking-input no-icon" placeholder="e.g. alexander@enterprise.com" required />
+                <span class="form-error-msg" id="errEmail">Please provide a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="passengerPhone" class="form-label">Mobile Telephone *</label>
+                <input type="tel" id="passengerPhone" class="booking-input no-icon" placeholder="e.g. +44 7894 270 520" required />
+                <span class="form-error-msg" id="errPhone">Please provide your contact number</span>
+              </div>
+
+              <div class="form-group">
+                <label for="passengerCompany" class="form-label">Company Name (Optional)</label>
+                <input type="text" id="passengerCompany" class="booking-input no-icon" placeholder="e.g. Wright Advisory Group" />
+              </div>
+
+              <div class="form-group">
+                <label for="passengerFlight" class="form-label">Flight Number (If Airport Transfer)</label>
+                <input type="text" id="passengerFlight" class="booking-input no-icon" placeholder="e.g. BA1418 or EI035" />
+              </div>
+
+              <div class="form-group form-group-full">
+                <label for="passengerNotes" class="form-label">Special Requirements & Additional Notes</label>
+                <textarea id="passengerNotes" class="booking-input no-icon" rows="3" placeholder="e.g. Champagne on arrival, baby seat, extra luggage space, meet and greet inside arrival lounge..."></textarea>
+              </div>
+
+              <div class="form-group form-group-full" style="flex-direction: row; align-items: flex-start; gap: 12px; margin-top: 10px;">
+                <input type="checkbox" id="privacyCheckbox" style="margin-top: 4px; accent-color: var(--color-gold-primary); cursor: pointer;" required />
+                <label for="privacyCheckbox" style="font-size: 0.82rem; color: var(--color-ivory-muted); cursor: pointer; line-height: 1.5;">
+                  I agree to Emerald Chauffeurs Belfast's privacy policy and consent to being contacted regarding this journey reservation.
+                </label>
+                <span class="form-error-msg" id="errPrivacy" style="display: block; width: 100%;">You must accept the privacy policy to continue</span>
+              </div>
+            </div>
+
+            <!-- Stepper Controls -->
+            <div class="stepper-nav-controls">
+              <button type="button" class="btn btn-secondary" id="step3BackBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                <span>Back</span>
+              </button>
+              <button type="button" class="btn btn-primary btn-lg" id="step3NextBtn">
+                <span>Review Booking Details</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               STEP 4: REVIEW & CONFIRMATION
+               ================================================================ -->
+          <div class="booking-step-content" data-step="4">
+            <div class="step-title-wrap">
+              <span class="step-kicker">Step 04 of 04</span>
+              <h2 class="step-heading">Review Your Chauffeur Reservation</h2>
+            </div>
+
+            <div class="review-panel">
+              <!-- Left: Journey & Passenger Breakdown -->
+              <div>
+                <!-- Journey Details Box -->
+                <div class="review-section-box">
+                  <div class="review-section-header">
+                    <span class="review-section-title">01. Journey Information</span>
+                    <button type="button" class="review-edit-btn" id="editJourneyBtn">Edit</button>
+                  </div>
+                  <div class="review-data-list">
+                    <div class="review-data-item">
+                      <span class="review-data-label">Journey Type</span>
+                      <span class="review-data-val" id="revJourneyType">One Way</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Pickup Schedule</span>
+                      <span class="review-data-val" id="revDate">--</span>
+                    </div>
+                    <div class="review-data-item" style="grid-column: span 2;">
+                      <span class="review-data-label">Pickup Location</span>
+                      <span class="review-data-val" id="revPickup">--</span>
+                    </div>
+                    <div class="review-data-item" style="grid-column: span 2;">
+                      <span class="review-data-label">Destination</span>
+                      <span class="review-data-val" id="revDestination">--</span>
+                    </div>
+                    <div class="review-data-item" id="revReturnItem" style="display: none; grid-column: span 2;">
+                      <span class="review-data-label">Return Schedule</span>
+                      <span class="review-data-val" id="revReturnDate">--</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Party & Luggage</span>
+                      <span class="review-data-val" id="revPassengers">2 Passengers · 2 Bags</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Passenger Details Box -->
+                <div class="review-section-box">
+                  <div class="review-section-header">
+                    <span class="review-section-title">02. Passenger & Requests</span>
+                    <button type="button" class="review-edit-btn" id="editPassengerBtn">Edit</button>
+                  </div>
+                  <div class="review-data-list">
+                    <div class="review-data-item">
+                      <span class="review-data-label">Lead Passenger</span>
+                      <span class="review-data-val" id="revPassengerName">--</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Telephone</span>
+                      <span class="review-data-val" id="revPhone">--</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Email Address</span>
+                      <span class="review-data-val" id="revEmail">--</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Company</span>
+                      <span class="review-data-val" id="revCompany">--</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Flight Reference</span>
+                      <span class="review-data-val" id="revFlight">--</span>
+                    </div>
+                    <div class="review-data-item">
+                      <span class="review-data-label">Special Notes</span>
+                      <span class="review-data-val" id="revNotes">--</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right: Selected Vehicle Preview Box -->
+              <div class="review-vehicle-preview">
+                <div class="review-section-header">
+                  <span class="review-section-title">03. Allocated Vehicle</span>
+                  <button type="button" class="review-edit-btn" id="editVehicleBtn">Change</button>
+                </div>
+                <div class="review-vehicle-media">
+                  <img id="revVehicleImg" src="/src/assets/images/hero_chauffeur_mercedes_1793622641365.jpg" alt="Selected Mercedes Chauffeur" />
+                </div>
+                <span class="review-data-label" id="revVehicleCategory">Executive Class</span>
+                <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--color-ivory); margin: 6px 0 16px;" id="revVehicleName">Mercedes-Benz S-Class LWB</h3>
+                <p style="font-size: 0.82rem; color: var(--color-ivory-muted); line-height: 1.6; margin-bottom: 20px;">
+                  All bookings include complimentary flight tracking, 60-minute terminal wait time, chilled Celtic water, and certified professional chauffeur.
+                </p>
+                <div style="background: rgba(16, 44, 35, 0.4); border: 1px solid var(--color-gold-border); padding: 12px; border-radius: 4px; font-size: 0.75rem; color: var(--color-gold-light); text-align: center;">
+                  🔒 Guaranteed Sovereign Discretion & Fixed Fare
+                </div>
+              </div>
+            </div>
+
+            <!-- Stepper Controls -->
+            <div class="stepper-nav-controls">
+              <button type="button" class="btn btn-secondary" id="step4BackBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                <span>Back</span>
+              </button>
+              <button type="button" class="btn btn-primary btn-lg" id="submitBookingEnquiryBtn">
+                <span>Submit Booking Enquiry</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               STEP 5: SUCCESS CONFIRMATION SCREEN
+               ================================================================ -->
+          <div class="booking-step-content" data-step="5">
+            <div class="success-screen-card">
+              <div class="success-icon-wrap">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+
+              <h2 class="success-title">Your Journey Starts Here.</h2>
+              <p class="success-subtitle" id="successSummaryDesc">
+                Thank you for choosing Emerald Chauffeurs Belfast. Your enquiry has been received and our VIP concierge team will be in touch shortly.
+              </p>
+
+              <div class="success-reference-box">
+                <div class="success-ref-label">Booking Enquiry Reference</div>
+                <div class="success-ref-code" id="successRefCode">ECB-2026-789420</div>
+              </div>
+
+              <div class="success-contact-options">
+                <a href="tel:07894270520" class="btn btn-secondary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <span>Speak to Concierge: 07894270520</span>
+                </a>
+                <a href="https://wa.me/447894270520?text=Hello%20Emerald%20Chauffeurs%2C%20I%20have%20submitted%20a%20booking%20enquiry." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="color: var(--color-gold-champagne); border-color: var(--color-gold-border);">
+                  <span>Confirm on WhatsApp</span>
+                </a>
+              </div>
+
+              <div style="border-top: 1px solid rgba(212, 175, 55, 0.15); padding-top: 28px; margin-top: 24px;">
+                <button type="button" class="btn btn-primary" id="bookAnotherBtn">
+                  <span>Book Another Journey</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Top CTA Banner -->
+    <section class="cta-banner">
+      <div class="container text-center">
+        <div class="section-badge reveal-up">Exclusive Executive Experience</div>
+        <h2 class="section-title reveal-up" style="margin-top: 12px; margin-bottom: 16px;">
+          Your Journey Deserves <em>Something Exceptional.</em>
+        </h2>
+        <p class="section-desc reveal-up" style="margin: 0 auto 36px auto;">
+          Experience premium chauffeur services tailored around your schedule, comfort, and absolute discretion.
+        </p>
+        <div class="header-cta-group reveal-up" style="justify-content: center;">
+          <a href="tel:07894270520" class="btn btn-primary">Call Concierge: 07894270520</a>
+          <a href="contact.html" class="btn btn-secondary">Contact Desk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         GLOBAL FOOTER
+         ====================================================================== -->
+    <footer class="site-footer">
+      <div class="section-container">
+        <div class="footer-top">
+          <!-- Brand Column -->
+          <div class="footer-brand-col">
+            <a href="index.html" class="brand-link" style="margin-bottom: 12px;">
+              <span class="brand-name">Emerald <span class="brand-accent">Chauffeurs</span></span>
+            </a>
+            <p>
+              Belfast's premier luxury executive transport provider. Dedicated to seamless chauffeur transfers, private aviation charters, and bespoke Northern Irish coastal tours with sovereign discretion.
+            </p>
+            <div class="footer-social-row">
+              <a href="https://www.instagram.com/emeraldchauffeursbelfast" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </a>
+              <a href="https://www.facebook.com/share/1ArNWmjnJj/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Services Navigation -->
+          <div>
+            <h3 class="footer-heading">Services</h3>
+            <ul class="footer-links">
+              <li><a href="airport-transfers.html">Airport Transfers (BFS / BHD)</a></li>
+              <li><a href="private-jet-transfers.html">Private Jet Transfers</a></li>
+              <li><a href="corporate-chauffeur.html">Corporate Chauffeur</a></li>
+              <li><a href="cruise-transfers.html">Cruise Ship Transfers</a></li>
+              <li><a href="wedding-chauffeur.html">Wedding Chauffeurs</a></li>
+              <li><a href="golf-tours.html">Championship Golf Tours</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Navigation -->
+          <div>
+            <h3 class="footer-heading">Private Tours</h3>
+            <ul class="footer-links">
+              <li><a href="giants-causeway-tours.html">Giant's Causeway Tours</a></li>
+              <li><a href="belfast-city-tours.html">Belfast City Tours</a></li>
+              <li><a href="political-tours.html">Political Mural Tours</a></li>
+              <li><a href="fleet.html">Our Fleet</a></li>
+              <li><a href="about.html">About Emerald</a></li>
+              <li><a href="book-now.html">Online Booking</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact & Concierge -->
+          <div>
+            <h3 class="footer-heading">Concierge Desk</h3>
+            <div class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <div>
+                <span style="font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-gold-muted); display: block;">Telephone</span>
+                <a href="tel:07894270520">07894270520</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <div>
+                <span style="font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-gold-muted); display: block;">Email</span>
+                <a href="mailto:garybassett56@gmail.com">garybassett56@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2026 Emerald Chauffeurs Belfast. All Rights Reserved.</div>
+          <div class="footer-bottom-links">
+            <a href="contact.html">Contact Us</a>
+            <span>·</span>
+            <a href="about.html">Privacy & Discretion</a>
+            <span>·</span>
+            <a href="fleet.html">Fleet Specifications</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a 
+      href="https://wa.me/447894270520?text=Hello%20Emerald%20Chauffeurs%20Belfast%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20chauffeur." 
+      class="whatsapp-floating" 
+      id="whatsappFloating" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      aria-label="Chat with Emerald Chauffeurs Belfast on WhatsApp"
+    >
+      <span class="whatsapp-tooltip">Chat With Our Team</span>
+      <div class="whatsapp-btn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41a8.204 8.204 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.163 8.163 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.24-8.24m4.52 11.63c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.24-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.02 2.57.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+      </div>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- Scripts -->
+    <script type="module" src="/assets/js/navigation.js"></script>
+    <script type="module" src="/assets/js/booking.js"></script>
+  </body>
+</html>

@@ -1,0 +1,946 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emerald Chauffeurs Belfast | Premier Luxury Chauffeur & Executive Travel</title>
+    <meta name="description" content="Belfast's premier chauffeur service offering luxury Mercedes-Benz airport transfers, bespoke Giant's Causeway private tours, corporate executive travel, and VIP private aviation transfers." />
+    <meta property="og:title" content="Emerald Chauffeurs Belfast | Premier Luxury Chauffeur" />
+    <meta property="og:description" content="Cinematic motion design, supreme discretion, and bespoke journeys across Northern Ireland and Dublin in luxury Mercedes-Benz vehicles." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/booking.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Custom Luxury Gold Mouse Cursor -->
+    <div class="custom-cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="custom-cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+    <!-- Scroll Progress Indicator Bar -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Ambient Glowing Shapes in Background -->
+    <div class="ambient-glow-1" aria-hidden="true"></div>
+    <div class="ambient-glow-2" aria-hidden="true"></div>
+
+    <!-- ======================================================================
+         1. PREMIUM WEBSITE PRELOADER
+         ====================================================================== -->
+    <div id="preloader" aria-label="Loading Emerald Chauffeurs Belfast" role="status">
+      <div class="preloader-content">
+        <svg class="preloader-crest" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 2" opacity="0.6"/>
+          <path d="M50 12L84 32V68L50 88L16 68V32L50 12Z" stroke="currentColor" stroke-width="2"/>
+          <path d="M50 22L76 37V63L50 78L24 63V37L50 22Z" stroke="currentColor" stroke-width="1" opacity="0.8"/>
+          <text x="50" y="58" font-family="'Cormorant Garamond', serif" font-size="30" font-weight="600" text-anchor="middle" fill="currentColor" letter-spacing="1">EC</text>
+        </svg>
+
+        <h1 class="preloader-title">Emerald Chauffeurs</h1>
+        <div class="preloader-subtitle">Belfast · Northern Ireland</div>
+
+        <div class="preloader-line-track">
+          <div class="preloader-line-fill" id="preloaderLineFill"></div>
+        </div>
+
+        <div class="preloader-counter-wrap">
+          <span class="preloader-counter" id="preloaderCounter">0%</span>
+          <span class="preloader-caption" id="preloaderStatus">Preparing Your Sovereign Journey</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         CONSISTENT LUXURY HEADER ACROSS ALL PAGES
+         ====================================================================== -->
+    <header class="site-header-wrapper" id="siteHeader">
+      <!-- Top Announcement Bar -->
+      <div class="top-bar">
+        <div class="top-bar-message">
+          <span>Premium Chauffeur Services Across Belfast & Ireland</span>
+          <span class="bullet">·</span>
+          <span>Licensed DVA Chauffeur Service</span>
+        </div>
+        <div class="top-bar-right">
+          <a href="tel:07894270520" class="top-bar-phone" aria-label="Call concierge">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>07894270520</span>
+          </a>
+          <div class="top-bar-socials">
+            <a href="https://www.instagram.com/emeraldchauffeursbelfast" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/share/1ArNWmjnJj/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Header Navigation -->
+      <div class="main-header">
+        <div class="nav-container">
+          <a href="index.html" class="brand-link" aria-label="Emerald Chauffeurs Home">
+            <svg class="brand-crest" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 8L88 30V70L50 92L12 70V30L50 8Z" stroke="currentColor" stroke-width="4"/>
+              <circle cx="50" cy="50" r="22" stroke="currentColor" stroke-width="2"/>
+              <text x="50" y="58" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="700" text-anchor="middle" fill="currentColor">E</text>
+            </svg>
+            <span class="brand-name">Emerald <span class="brand-accent">Chauffeurs</span></span>
+          </a>
+
+          <nav class="nav-menu" aria-label="Main Navigation">
+            <li class="nav-item active"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About Us</a></li>
+            
+            <li class="nav-item has-dropdown">
+              <button class="nav-link-btn" aria-expanded="false" aria-haspopup="true">
+                <span>Services</span>
+                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="services.html">All Services Overview</a></li>
+                <li class="dropdown-item"><a href="airport-transfers.html">Airport Transfers</a></li>
+                <li class="dropdown-item"><a href="private-jet-transfers.html">Private Jet Transfers</a></li>
+                <li class="dropdown-item"><a href="corporate-chauffeur.html">Corporate Chauffeur</a></li>
+                <li class="dropdown-item"><a href="cruise-transfers.html">Cruise Ship Transfers</a></li>
+                <li class="dropdown-item"><a href="wedding-chauffeur.html">Wedding Chauffeur</a></li>
+                <li class="dropdown-item"><a href="golf-tours.html">Golf Tours</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <button class="nav-link-btn" aria-expanded="false" aria-haspopup="true">
+                <span>Private Tours</span>
+                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="private-tours.html">All Tours Overview</a></li>
+                <li class="dropdown-item"><a href="giants-causeway-tours.html">Giant's Causeway Tours</a></li>
+                <li class="dropdown-item"><a href="belfast-city-tours.html">Belfast City Tours</a></li>
+                <li class="dropdown-item"><a href="political-tours.html">Political Tours</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a href="fleet.html">Our Fleet</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </nav>
+
+          <div class="header-actions">
+            <a href="book-now.html" class="btn btn-primary btn-sm">Book Now</a>
+            <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false">
+              <span class="hamburger-bar"></span>
+              <span class="hamburger-bar"></span>
+              <span class="hamburger-bar"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation" aria-hidden="true">
+      <div class="mobile-drawer-header">
+        <a href="index.html" class="brand-link">
+          <svg class="brand-crest" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 8L88 30V70L50 92L12 70V30L50 8Z" stroke="currentColor" stroke-width="4"/>
+            <text x="50" y="58" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="700" text-anchor="middle" fill="currentColor">E</text>
+          </svg>
+          <span class="brand-name">Emerald <span class="brand-accent">Chauffeurs</span></span>
+        </a>
+        <button class="mobile-drawer-close-btn" id="mobileDrawerCloseBtn" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="mobile-drawer-body">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-item active"><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About Us</a></li>
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" aria-expanded="false">
+              <span>Services</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="services.html">Services Overview</a></li>
+              <li class="mobile-submenu-item"><a href="airport-transfers.html">Airport Transfers</a></li>
+              <li class="mobile-submenu-item"><a href="private-jet-transfers.html">Private Jet Transfers</a></li>
+              <li class="mobile-submenu-item"><a href="corporate-chauffeur.html">Corporate Chauffeur</a></li>
+              <li class="mobile-submenu-item"><a href="cruise-transfers.html">Cruise Ship Transfers</a></li>
+              <li class="mobile-submenu-item"><a href="wedding-chauffeur.html">Wedding Chauffeur</a></li>
+              <li class="mobile-submenu-item"><a href="golf-tours.html">Golf Tours</a></li>
+            </ul>
+          </li>
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" aria-expanded="false">
+              <span>Private Tours</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <ul class="mobile-submenu">
+              <li class="mobile-submenu-item"><a href="private-tours.html">Tours Overview</a></li>
+              <li class="mobile-submenu-item"><a href="giants-causeway-tours.html">Giant's Causeway Tours</a></li>
+              <li class="mobile-submenu-item"><a href="belfast-city-tours.html">Belfast City Tours</a></li>
+              <li class="mobile-submenu-item"><a href="political-tours.html">Political Tours</a></li>
+            </ul>
+          </li>
+          <li class="mobile-nav-item"><a href="fleet.html" class="mobile-nav-link">Our Fleet</a></li>
+          <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+
+        <div class="mobile-drawer-actions">
+          <a href="book-now.html" class="btn btn-primary" style="width: 100%; margin-bottom: 12px;">Book Your Chauffeur</a>
+          <a href="https://wa.me/447894270520?text=Hello%20Emerald%20Chauffeurs%20Belfast%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20chauffeur." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; margin-bottom: 24px; color: var(--color-gold-champagne); border-color: var(--color-gold-border);">
+            Chat on WhatsApp
+          </a>
+          <div class="mobile-drawer-contact">
+            <p class="drawer-contact-label">Direct Concierge Telephone</p>
+            <a href="tel:07894270520" class="drawer-contact-phone">07894270520</a>
+            <p class="drawer-contact-sub">Belfast · Dublin · All Northern Ireland</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main id="main-content">
+      <!-- ======================================================================
+           2. CINEMATIC HERO SECTION
+           ====================================================================== -->
+      <section id="hero" class="hero-section">
+        <div class="hero-bg-wrapper">
+          <img 
+            src="/src/assets/images/hero_chauffeur_mercedes_1793622641365.jpg" 
+            alt="Emerald Chauffeurs pristine Mercedes-Benz S-Class outside historic estate" 
+            class="hero-bg-img"
+            loading="eager"
+            referrerpolicy="no-referrer"
+          />
+        </div>
+        <div class="hero-scrim"></div>
+
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-kicker reveal-up">
+              <span class="kicker-line"></span>
+              <span>Belfast & Dublin Premier Chauffeurs</span>
+            </div>
+
+            <h1 class="hero-title reveal-up" style="animation-delay: 0.15s;">
+              The Art of <em>Sovereign Travel</em> in Northern Ireland.
+            </h1>
+
+            <p class="hero-description reveal-up" style="animation-delay: 0.3s;">
+              Discreet, punctual, and uncompromising luxury. Experience bespoke Mercedes-Benz chauffeur transfers, private Ireland coastal tours, and VIP aviation charters with seasoned professionals.
+            </p>
+
+            <div class="hero-cta-group reveal-up" style="animation-delay: 0.45s;">
+              <a href="book-now.html" class="btn btn-primary">
+                <span>Book Your Chauffeur</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+
+              <a href="services.html" class="btn btn-secondary">
+                <span>Explore Services</span>
+              </a>
+
+              <a href="fleet.html" class="btn btn-ghost">
+                <span>View Our Fleet &rarr;</span>
+              </a>
+            </div>
+
+            <div class="hero-trust-strip reveal-up" style="animation-delay: 0.6s;">
+              <div class="trust-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>Licensed DVA & Fully Insured</span>
+              </div>
+              <div class="trust-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Live Flight Tracking BFS · BHD · DUB</span>
+              </div>
+              <div class="trust-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <span>5-Star Rated Executive Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#booking-widget" class="hero-scroll-indicator" aria-label="Scroll to search">
+          <div class="scroll-pill"><div class="scroll-bead"></div></div>
+          <span>Scroll to explore</span>
+        </a>
+      </section>
+
+      <!-- ======================================================================
+           7. HOMEPAGE BOOKING SEARCH WIDGET
+           ====================================================================== -->
+      <div class="home-booking-widget-wrapper" id="booking-widget">
+        <div class="home-booking-widget">
+          <div class="widget-tabs-row">
+            <button type="button" class="widget-tab-btn active" data-type="one-way">One Way</button>
+            <button type="button" class="widget-tab-btn" data-type="return">Return Journey</button>
+            <button type="button" class="widget-tab-btn" data-type="hourly">Hourly Chauffeur</button>
+            <button type="button" class="widget-tab-btn" data-type="full-day">Full Day Hire</button>
+          </div>
+
+          <form id="homeBookingWidgetForm">
+            <div class="widget-inputs-grid">
+              <div class="widget-field">
+                <label for="widgetPickup" class="widget-label">Pickup Location</label>
+                <input type="text" id="widgetPickup" class="widget-input" placeholder="Airport, Hotel, Address..." required />
+              </div>
+
+              <div class="widget-field">
+                <label for="widgetDestination" class="widget-label">Destination</label>
+                <input type="text" id="widgetDestination" class="widget-input" placeholder="Dropoff Location..." required />
+              </div>
+
+              <div class="widget-field">
+                <label for="widgetDate" class="widget-label">Date</label>
+                <input type="date" id="widgetDate" class="widget-input" required />
+              </div>
+
+              <div class="widget-field">
+                <label for="widgetTime" class="widget-label">Time</label>
+                <input type="time" id="widgetTime" class="widget-input" value="10:00" required />
+              </div>
+
+              <div class="widget-field">
+                <label for="widgetPassengers" class="widget-label">Passengers</label>
+                <select id="widgetPassengers" class="widget-input">
+                  <option value="1">1 Passenger</option>
+                  <option value="2" selected>2 Passengers</option>
+                  <option value="3">3 Passengers</option>
+                  <option value="4">4 Passengers</option>
+                  <option value="5">5 Passengers</option>
+                  <option value="6">6 Passengers</option>
+                  <option value="7">7 Passengers</option>
+                </select>
+              </div>
+
+              <div class="widget-field widget-field-cta">
+                <button type="submit" class="btn btn-primary" style="height: 44px; padding: 0 24px;">
+                  <span>Book Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Hairline Gold Divider -->
+      <div class="gold-divider" aria-hidden="true" style="margin-top: 60px;"></div>
+
+      <!-- ======================================================================
+           3. INTRODUCTION SECTION
+           ====================================================================== -->
+      <section id="introduction">
+        <div class="section-container">
+          <div class="intro-grid">
+            <div class="intro-media-wrap reveal-left">
+              <div class="intro-image-frame">
+                <img 
+                  src="/src/assets/images/fleet_interior_luxury_1793622664432.jpg" 
+                  alt="Emerald Chauffeurs bespoke interior craftsmanship" 
+                  class="intro-img"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <div class="intro-badge-floating">
+                <div class="badge-number">100%</div>
+                <div class="badge-text">Punctuality Guarantee</div>
+              </div>
+            </div>
+
+            <div class="intro-prose reveal-right">
+              <div class="section-kicker">
+                <span class="kicker-line"></span>
+                <span>The Emerald Standard</span>
+              </div>
+
+              <h2 class="section-title">
+                Belfast's Signature of Discreet Hospitality.
+              </h2>
+
+              <p>
+                At Emerald Chauffeurs Belfast, we consider every journey an intimate extension of your agenda. Whether you are welcoming corporate dignitaries at Belfast City Airport (BHD), departing from Belfast International (BFS), or crossing into the Republic of Ireland via Dublin Airport (DUB), our seasoned chauffeurs provide unmatched composure and local expertise.
+              </p>
+
+              <p>
+                Our hand-selected fleet of Mercedes-Benz S-Class saloons and executive V-Class people movers are maintained to showroom standards—equipped with on-board Wi-Fi, chilled spring water, device charging, and bespoke privacy appointments.
+              </p>
+
+              <div class="intro-metrics-row">
+                <div class="intro-metric-item">
+                  <div class="metric-val" data-target="99.8" data-suffix="%">99.8%</div>
+                  <div class="metric-label">On-Time Execution</div>
+                </div>
+                <div class="intro-metric-item">
+                  <div class="metric-val" data-target="15" data-suffix="+">15+</div>
+                  <div class="metric-label">Years Chauffeur Mastery</div>
+                </div>
+                <div class="intro-metric-item">
+                  <div class="metric-val" data-target="5.0" data-suffix="★">5.0★</div>
+                  <div class="metric-label">Client Satisfaction</div>
+                </div>
+              </div>
+
+              <div style="margin-top: 32px;">
+                <a href="about.html" class="btn btn-secondary">Read Our Full Story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hairline Gold Divider -->
+      <div class="gold-divider" aria-hidden="true"></div>
+
+      <!-- ======================================================================
+           4. SERVICES SHOWCASE GRID (Linking to dedicated inner pages)
+           ====================================================================== -->
+      <section id="services">
+        <div class="section-container">
+          <div class="section-header reveal-up">
+            <div class="section-kicker">
+              <span class="kicker-line"></span>
+              <span>Bespoke Solutions</span>
+            </div>
+            <h2 class="section-title">Crafted Chauffeur Services.</h2>
+            <p class="section-subtitle">
+              Tailored executive transport solutions designed for corporate roadshows, discreet aviation, wedding ceremonies, and private Northern Irish journeys.
+            </p>
+          </div>
+
+          <div class="services-editorial-grid">
+            <!-- 01. Airport Transfers -->
+            <div class="service-card col-span-7 featured reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/service_corporate_chauffeur_1793622642178.jpg" alt="Airport Transfers" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">01. Service Tier</span>
+                  <h3 class="service-title">Airport & Intercity Transfers</h3>
+                  <p class="service-desc">
+                    Seamless arrivals across Belfast International (BFS), George Best City (BHD), and Dublin Airport (DUB). Flight radar tracking and complimentary wait time included.
+                  </p>
+                  <div class="service-highlights-list">
+                    <span class="service-highlight-item">Live Flight Radar Monitoring</span>
+                    <span class="service-highlight-item">Terminal Meet & Greet</span>
+                    <span class="service-highlight-item">Dublin Airport Corridor</span>
+                  </div>
+                </div>
+                <div style="display: flex; gap: 16px; align-items: center; margin-top: 16px;">
+                  <a href="airport-transfers.html" class="service-action-link">Explore Service Details &rarr;</a>
+                  <a href="book-now.html" class="btn btn-primary btn-sm">Book Transfer</a>
+                </div>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+
+            <!-- 02. Corporate Chauffeur -->
+            <div class="service-card col-span-5 reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/hero_chauffeur_mercedes_1793622641365.jpg" alt="Corporate Chauffeur" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">02. Executive Class</span>
+                  <h3 class="service-title">Corporate Travel & Roadshows</h3>
+                  <p class="service-desc">
+                    Confidential business mobility for board members, foreign delegations, and visiting dignitaries. Full-day standby and NDA compliance.
+                  </p>
+                  <div class="service-highlights-list">
+                    <span class="service-highlight-item">Confidential Travel</span>
+                    <span class="service-highlight-item">Hourly Standby Options</span>
+                  </div>
+                </div>
+                <div style="display: flex; gap: 16px; align-items: center; margin-top: 16px;">
+                  <a href="corporate-chauffeur.html" class="service-action-link">Explore Service &rarr;</a>
+                  <a href="book-now.html" class="btn btn-primary btn-sm">Book Chauffeur</a>
+                </div>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+
+            <!-- 03. Private Jet Transfers -->
+            <div class="service-card col-span-4 reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/service_private_jet_1793622644372.jpg" alt="Private Jet Transfers" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">03. VIP Aviation</span>
+                  <h3 class="service-title">Private Jet & Tarmac Access</h3>
+                  <p class="service-desc">
+                    Direct FBO apron access at Global Trek Aviation (BHD) and Woodgate Aviation (BFS). Aircraft-side greeting and luggage transfer.
+                  </p>
+                </div>
+                <a href="private-jet-transfers.html" class="service-action-link" style="margin-top: 16px;">View Aviation Service &rarr;</a>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+
+            <!-- 04. Giant's Causeway & Scenic Tours -->
+            <div class="service-card col-span-8 featured reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/service_giants_causeway_1793622643013.jpg" alt="Giant's Causeway Tours" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">04. Heritage Excursion</span>
+                  <h3 class="service-title">Giant's Causeway & Antrim Coast</h3>
+                  <p class="service-desc">
+                    Explore Northern Ireland's greatest coastal route at your own pace. Bespoke private itineraries visiting Dunluce Castle, Carrick-a-Rede, The Dark Hedges, and Bushmills.
+                  </p>
+                  <div class="service-highlights-list">
+                    <span class="service-highlight-item">Bespoke Itinerary</span>
+                    <span class="service-highlight-item">Driver-Guide Storyteller</span>
+                    <span class="service-highlight-item">Distillery Tastings</span>
+                  </div>
+                </div>
+                <div style="display: flex; gap: 16px; align-items: center; margin-top: 16px;">
+                  <a href="giants-causeway-tours.html" class="service-action-link">Explore Tour Route &rarr;</a>
+                  <a href="book-now.html" class="btn btn-primary btn-sm">Reserve Tour</a>
+                </div>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+
+            <!-- 05. Cruise Ship Transfers -->
+            <div class="service-card col-span-4 reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/cruise_ship_transfer_1793629359466.jpg" alt="Cruise Ship Transfers" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">05. Maritime Gateways</span>
+                  <h3 class="service-title">Cruise Ship Transfers</h3>
+                  <p class="service-desc">
+                    Belfast Harbour Cruise Terminal shore excursions and seamless intercity transfers for cruise ship guests.
+                  </p>
+                </div>
+                <a href="cruise-transfers.html" class="service-action-link" style="margin-top: 16px;">Cruise Transfer Details &rarr;</a>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+
+            <!-- 06. Golf Excursions -->
+            <div class="service-card col-span-4 reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/service_golf_tour_1793622643916.jpg" alt="Golf Tours" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">06. Sporting Pursuits</span>
+                  <h3 class="service-title">Championship Golf Tours</h3>
+                  <p class="service-desc">
+                    Private transport to Royal County Down, Royal Portrush, and Portstewart with generous golf club storage.
+                  </p>
+                </div>
+                <a href="golf-tours.html" class="service-action-link" style="margin-top: 16px;">Explore Golf Tours &rarr;</a>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+
+            <!-- 07. Wedding Chauffeur -->
+            <div class="service-card col-span-4 reveal-up">
+              <div class="service-card-media">
+                <img src="/src/assets/images/service_wedding_chauffeur_1793622664082.jpg" alt="Wedding Chauffeur" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <div>
+                  <span class="service-index">07. Milestone Occasions</span>
+                  <h3 class="service-title">Wedding Chauffeur Service</h3>
+                  <p class="service-desc">
+                    Immaculate obsidian Mercedes limousines adorned with silk ribbons, suited chauffeurs, and chilled champagne.
+                  </p>
+                </div>
+                <a href="wedding-chauffeur.html" class="service-action-link" style="margin-top: 16px;">Wedding Packages &rarr;</a>
+              </div>
+              <div class="service-hover-line"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hairline Gold Divider -->
+      <div class="gold-divider" aria-hidden="true"></div>
+
+      <!-- ======================================================================
+           PRIVATE TOURS SHOWCASE (Belfast City & Political)
+           ====================================================================== -->
+      <section id="tours">
+        <div class="section-container">
+          <div class="section-header reveal-up">
+            <div class="section-kicker">
+              <span class="kicker-line"></span>
+              <span>Cultural Expeditions</span>
+            </div>
+            <h2 class="section-title">Discover Northern Ireland's Living History.</h2>
+            <p class="section-subtitle">
+              From the iconic murals of the Falls and Shankill to the architectural majesty of Belfast City Hall and Titanic Belfast.
+            </p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px;">
+            <!-- Belfast City Tour -->
+            <div class="service-card reveal-up">
+              <div class="service-card-media" style="height: 280px;">
+                <img src="/src/assets/images/belfast_city_tour_1793629359823.jpg" alt="Belfast City Tour" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <span class="service-index">City Discovery</span>
+                <h3 class="service-title">Belfast City Highlights Tour</h3>
+                <p class="service-desc">
+                  Experience City Hall, Queen's University, the Linen Quarter, and the world-renowned Titanic Quarter in executive comfort with your private driver-guide.
+                </p>
+                <div style="display: flex; gap: 16px; align-items: center; margin-top: 16px;">
+                  <a href="belfast-city-tours.html" class="service-action-link">Tour Highlights &rarr;</a>
+                  <a href="book-now.html" class="btn btn-primary btn-sm">Book City Tour</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Political Tour -->
+            <div class="service-card reveal-up">
+              <div class="service-card-media" style="height: 280px;">
+                <img src="/src/assets/images/political_tour_mural_1793629359389.jpg" alt="Belfast Political Tour" class="service-card-img" loading="lazy" />
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <span class="service-index">Living History</span>
+                <h3 class="service-title">Belfast Political & Peace Wall Tour</h3>
+                <p class="service-desc">
+                  Gain unique, balanced insights into Belfast's complex history. Visit the Peace Walls, world-famous murals, and historic community gates with a knowledgeable local chauffeur.
+                </p>
+                <div style="display: flex; gap: 16px; align-items: center; margin-top: 16px;">
+                  <a href="political-tours.html" class="service-action-link">Tour Details &rarr;</a>
+                  <a href="book-now.html" class="btn btn-primary btn-sm">Book Mural Tour</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hairline Gold Divider -->
+      <div class="gold-divider" aria-hidden="true"></div>
+
+      <!-- ======================================================================
+           FLEET SHOWCASE PREVIEW (Link to full fleet.html)
+           ====================================================================== -->
+      <section id="fleet">
+        <div class="section-container">
+          <div class="section-header reveal-up">
+            <div class="section-kicker">
+              <span class="kicker-line"></span>
+              <span>The Executive Fleet</span>
+            </div>
+            <h2 class="section-title">The Pinnacle of Automotive Luxury.</h2>
+            <p class="section-subtitle">
+              Every vehicle in our fleet represents the ultimate in refinement, acoustic serenity, and sovereign safety.
+            </p>
+          </div>
+
+          <div class="fleet-display-grid reveal-scale">
+            <div class="fleet-media-container">
+              <img id="fleetImage" src="/src/assets/images/hero_chauffeur_mercedes_1793622641365.jpg" alt="Mercedes S-Class" class="fleet-showcase-img" loading="lazy" />
+            </div>
+
+            <div class="fleet-info-pane">
+              <span style="font-size: 0.72rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold-primary); font-weight: 600; display: block; margin-bottom: 8px;">
+                Executive Class Saloon
+              </span>
+              <h3 style="font-family: var(--font-serif); font-size: 2.2rem; color: var(--color-ivory); margin-bottom: 16px;">
+                Mercedes-Benz S-Class LWB
+              </h3>
+              <p style="color: var(--color-ivory-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 24px;">
+                The sovereign benchmark for executive discretion. Fitted with first-class rear executive seating, extended legroom, acoustic privacy glass, and bespoke leather appointments.
+              </p>
+
+              <div class="fleet-spec-list">
+                <div class="spec-item"><span class="spec-label">Capacity</span><span class="spec-value">3 Passengers</span></div>
+                <div class="spec-item"><span class="spec-label">Luggage</span><span class="spec-value">2 Large + 2 Cabin Bags</span></div>
+                <div class="spec-item"><span class="spec-label">Wi-Fi</span><span class="spec-value">High-Speed 5G On-Board</span></div>
+                <div class="spec-item"><span class="spec-label">Comfort</span><span class="spec-value">Heated & Reclining Nappa Seats</span></div>
+              </div>
+
+              <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                <a href="book-now.html" class="btn btn-primary">Book This Vehicle</a>
+                <a href="fleet.html" class="btn btn-secondary">Explore Entire Fleet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hairline Gold Divider -->
+      <div class="gold-divider" aria-hidden="true"></div>
+
+      <!-- ======================================================================
+           WHY CHOOSE US / STANDARDS
+           ====================================================================== -->
+      <section id="why-us">
+        <div class="section-container">
+          <div class="section-header reveal-up">
+            <div class="section-kicker">
+              <span class="kicker-line"></span>
+              <span>Distinction & Integrity</span>
+            </div>
+            <h2 class="section-title">The Pillars of Emerald Service.</h2>
+            <p class="section-subtitle">
+              Every appointment is executed with precision, discretion, and uncompromising dedication to your peace of mind.
+            </p>
+          </div>
+
+          <div class="why-us-grid">
+            <div class="why-us-card reveal-up">
+              <div class="why-us-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <h3 class="why-us-title">Absolute Punctuality</h3>
+              <p class="why-us-desc">
+                Our chauffeurs arrive 15 minutes before the agreed pickup time with real-time flight tracking and route contingency planning.
+              </p>
+            </div>
+
+            <div class="why-us-card reveal-up" style="transition-delay: 0.1s;">
+              <div class="why-us-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3 class="why-us-title">Discretion & Privacy</h3>
+              <p class="why-us-desc">
+                Serving corporate directors, diplomats, and private travelers with strict confidentiality and non-disclosure standards.
+              </p>
+            </div>
+
+            <div class="why-us-card reveal-up" style="transition-delay: 0.2s;">
+              <div class="why-us-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <h3 class="why-us-title">Immaculate Fleet</h3>
+              <p class="why-us-desc">
+                Every vehicle is valeted and sanitized prior to every engagement. Hand-stitched leather interiors with chilled refreshments.
+              </p>
+            </div>
+
+            <div class="why-us-card reveal-up" style="transition-delay: 0.3s;">
+              <div class="why-us-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              </div>
+              <h3 class="why-us-title">Seasoned Chauffeurs</h3>
+              <p class="why-us-desc">
+                DVA-certified, advanced driving qualified, and impeccably presented in tailored dark suits with extensive knowledge of Northern Ireland.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hairline Gold Divider -->
+      <div class="gold-divider" aria-hidden="true"></div>
+
+      <!-- ======================================================================
+           TESTIMONIALS
+           ====================================================================== -->
+      <section id="testimonials">
+        <div class="section-container">
+          <div class="section-header reveal-up">
+            <div class="section-kicker">
+              <span class="kicker-line"></span>
+              <span>Client Endorsements</span>
+            </div>
+            <h2 class="section-title">Endorsed by Discerning Travelers.</h2>
+            <p class="section-subtitle">
+              Read authentic feedback from corporate leaders, wedding parties, and private tour guests across the globe.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <div class="testimonial-card reveal-up">
+              <p class="testimonial-quote">
+                "Emerald Chauffeurs handled our executive roadshow between Belfast and Dublin flawlessly. Flawless timing, pristine Mercedes V-Class, and a driver who anticipated every logistical need."
+              </p>
+              <div class="testimonial-author-row">
+                <div class="author-info">
+                  <div class="author-name">Sir Edward M.</div>
+                  <div class="author-title">Senior Partner · International Advisory Firm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card reveal-up" style="transition-delay: 0.15s;">
+              <p class="testimonial-quote">
+                "Our private tour of the Giant's Causeway and Royal Portrush was the highlight of our vacation in Ireland. Our driver-guide had incredible local stories and navigated the coast with majestic ease."
+              </p>
+              <div class="testimonial-author-row">
+                <div class="author-info">
+                  <div class="author-name">Kathryn & David B.</div>
+                  <div class="author-title">Private Tour Guests · New York, USA</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card reveal-up" style="transition-delay: 0.3s;">
+              <p class="testimonial-quote">
+                "For our wedding at Galgorm Resort, the ribbon-dressed Mercedes S-Class arrived early, and the chauffeur was exceptionally calming and gracious. Worth every single penny."
+              </p>
+              <div class="testimonial-author-row">
+                <div class="author-info">
+                  <div class="author-name">Clare & Liam O'Connor</div>
+                  <div class="author-title">Belfast Wedding Couple</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom CTA Banner -->
+          <div class="journey-cta-banner reveal-up">
+            <h2>Make Every Journey Exceptional.</h2>
+            <p>Ready to experience Belfast's premier luxury executive transport? Reserve your vehicle online in under two minutes.</p>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+              <a href="book-now.html" class="btn btn-primary btn-lg">Book Your Chauffeur</a>
+              <a href="contact.html" class="btn btn-secondary btn-lg">Contact Concierge</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======================================================================
+         GLOBAL FOOTER
+         ====================================================================== -->
+    <footer class="site-footer">
+      <div class="section-container">
+        <div class="footer-top">
+          <!-- Brand Column -->
+          <div class="footer-brand-col">
+            <a href="index.html" class="brand-link" style="margin-bottom: 12px;">
+              <span class="brand-name">Emerald <span class="brand-accent">Chauffeurs</span></span>
+            </a>
+            <p>
+              Belfast's premier luxury executive transport provider. Dedicated to seamless chauffeur transfers, private aviation charters, and bespoke Northern Irish coastal tours with sovereign discretion.
+            </p>
+            <div class="footer-social-row">
+              <a href="https://www.instagram.com/emeraldchauffeursbelfast" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </a>
+              <a href="https://www.facebook.com/share/1ArNWmjnJj/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Services Navigation -->
+          <div>
+            <h3 class="footer-heading">Services</h3>
+            <ul class="footer-links">
+              <li><a href="airport-transfers.html">Airport Transfers (BFS / BHD)</a></li>
+              <li><a href="private-jet-transfers.html">Private Jet Transfers</a></li>
+              <li><a href="corporate-chauffeur.html">Corporate Chauffeur</a></li>
+              <li><a href="cruise-transfers.html">Cruise Ship Transfers</a></li>
+              <li><a href="wedding-chauffeur.html">Wedding Chauffeurs</a></li>
+              <li><a href="golf-tours.html">Championship Golf Tours</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Navigation -->
+          <div>
+            <h3 class="footer-heading">Private Tours</h3>
+            <ul class="footer-links">
+              <li><a href="giants-causeway-tours.html">Giant's Causeway Tours</a></li>
+              <li><a href="belfast-city-tours.html">Belfast City Tours</a></li>
+              <li><a href="political-tours.html">Political Mural Tours</a></li>
+              <li><a href="fleet.html">Our Fleet</a></li>
+              <li><a href="about.html">About Emerald</a></li>
+              <li><a href="book-now.html">Online Booking</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact & Concierge -->
+          <div>
+            <h3 class="footer-heading">Concierge Desk</h3>
+            <div class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <div>
+                <span style="font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-gold-muted); display: block;">Telephone</span>
+                <a href="tel:07894270520">07894270520</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <div>
+                <span style="font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-gold-muted); display: block;">Email</span>
+                <a href="mailto:garybassett56@gmail.com">garybassett56@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2026 Emerald Chauffeurs Belfast. All Rights Reserved.</div>
+          <div class="footer-bottom-links">
+            <a href="contact.html">Contact Us</a>
+            <span>·</span>
+            <a href="about.html">Privacy & Discretion</a>
+            <span>·</span>
+            <a href="fleet.html">Fleet Specifications</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a 
+      href="https://wa.me/447894270520?text=Hello%20Emerald%20Chauffeurs%20Belfast%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20chauffeur." 
+      class="whatsapp-floating" 
+      id="whatsappFloating" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      aria-label="Chat with Emerald Chauffeurs Belfast on WhatsApp"
+    >
+      <span class="whatsapp-tooltip">Chat With Our Team</span>
+      <div class="whatsapp-btn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41a8.204 8.204 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.163 8.163 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.24-8.24m4.52 11.63c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.24-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.02 2.57.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+      </div>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- Scripts -->
+    <script type="module" src="/assets/js/navigation.js"></script>
+    <script type="module" src="/assets/js/animations.js"></script>
+    <script type="module" src="/assets/js/booking.js"></script>
+  </body>
+</html>

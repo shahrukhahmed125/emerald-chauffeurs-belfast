@@ -1,0 +1,8 @@
+{
+  "name": "Emerald Chauffeurs Belfast",
+  "description": "Belfast's premier luxury chauffeur and executive travel service featuring cinematic motion design and bespoke private journeys.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
