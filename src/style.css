@@ -69,7 +69,8 @@
   overflow: hidden;
 }
 
-.hero-bg-img {
+.hero-bg-img,
+.hero-bg-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -77,6 +78,8 @@
   filter: brightness(0.48) contrast(1.15);
   will-change: transform;
   animation: kenBurnsZoom 26s ease-in-out infinite alternate;
+  display: block;
+  background-color: var(--color-bg-primary);
 }
 
 @keyframes kenBurnsZoom {

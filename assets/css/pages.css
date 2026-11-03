@@ -19,8 +19,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
   filter: brightness(0.35) contrast(1.15);
   z-index: 1;
+  display: block;
+  background-color: var(--color-bg-primary);
+  pointer-events: none;
 }
 
 .page-hero-scrim {
@@ -540,6 +544,52 @@
   padding: 40px 28px;
   text-align: center;
   margin-top: 52px;
+  color: var(--color-text-main);
+}
+
+.cta-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-banner .section-badge,
+.cta-banner .section-title,
+.cta-banner .section-desc,
+.cta-banner .header-cta-group {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.cta-banner .section-badge {
+  display: inline-flex;
+  color: var(--color-gold-champagne);
+  margin-bottom: 16px;
+  text-shadow: 0 0 18px rgba(197, 164, 91, 0.2);
+}
+
+.cta-banner .section-title {
+  font-size: clamp(2.3rem, 4vw, 3.8rem);
+  color: var(--color-text-main);
+  margin-top: 12px;
+  margin-bottom: 16px;
+  text-wrap: balance;
+}
+
+.cta-banner .section-desc {
+  max-width: 720px;
+  margin: 0 auto 36px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+.cta-banner .header-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 0;
 }
 
 @media (max-width: 1024px) {
